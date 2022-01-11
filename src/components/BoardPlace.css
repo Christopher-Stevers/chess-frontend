@@ -1,0 +1,18 @@
+/* Provide sufficient contrast against white background */
+.black{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(41, 32, 32);
+    color: darkblue
+}
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;}
+.white {
+    width: 100px;
+    height: 100px;
+    color: green;
+    background-color: white;
+}
+.pieceImg{height: 100px;aspect-ratio: 100px; object-fit: contain;}
