@@ -27,7 +27,7 @@ const BoardPlace: FC<props> = ({ title, index, outerIndex, showAvailable, moveTo
     }*/
     return (
         <div onClick={ handlePlaceClick} className={(title.available==="yes")?"red":((outerIndex+index)%2===0)? "black": "white"}>
-          { (title.piece) &&<img className="pieceImg" src={`chessPieces/${title.color+title.piece}.png`}></img>}
+          { (title.piece) &&<img alt="piece" className="pieceImg" src={`chessPieces/${title.color+title.piece}.png`}></img>}
         </div>
     );
 };
