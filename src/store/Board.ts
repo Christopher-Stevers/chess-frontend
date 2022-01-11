@@ -1,4 +1,4 @@
-import { Action, Reducer } from 'redux';
+import {  Reducer } from 'redux';
 import { showAllAvailableSpots, moveToAvailableSpot } from './reducerFunctions';
 // -----------------
 // STATE - This defines the type of data maintained in the Redux store.
